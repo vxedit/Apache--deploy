@@ -1,0 +1,13 @@
+admin-------------------
+name:
+irfan
+pass:
+admin@irfan
+
+===================== Apache ============================
+a2dissite ems.conf
+rm etc/apache2/sites-available/ems.conf
+service apache2 reload
+
+linux:ifconfig ip============
+172.29.130.172
